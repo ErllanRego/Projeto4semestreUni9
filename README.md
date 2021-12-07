@@ -50,11 +50,6 @@
 
 <hr>
 
-<h3 id="membros">Membros do projeto</h3>
-
-
-<hr>
-
 <h3 id="licenca">Licença</h3>
 <p>Este projeto está sob a licença do <a href="https://github.com/ErllanRego/DropZone-Technology/blob/main/LICENSE">MIT.</a>
 <p>Feito por alunos da <a href="https://www.uninove.br/">Universidade Nove de Julho.</a>
