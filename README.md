@@ -1,4 +1,3 @@
-<p align="center"><img  width=600px;   src="logo/logo dropzone.png"></p><!--logo-->
 <h1 align="center">DropZone</h1>
 
 <p align="center">"Show us the problem. And we will give you the solution."</p>
@@ -31,7 +30,16 @@
 </ul>
 
 <hr>
-
+<h3 id="membros">Membros</h3>
+<ul>
+ <li>Danilo Cezar de Carvalho Silva,Ra: 920106364</li>
+ <li>Erllan da Silva Rego,Ra:920122236</li>
+ <li>Pedro Vinícius Rodrigues,Ra:920119915</li>
+ <li>Caio Ferreira,Ra:92010507</li>
+ <li>Eudes Santana ,Ra:920122658</li>
+ <li>Marcos Aurélio Silva dos Reis,Ra:920116366</li>
+ <li>Raphael Bressani,Ra:920102217</li>          
+</ul>
     
 <h3 id="tecnologias">Tecnologias</h3>
 
