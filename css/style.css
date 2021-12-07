@@ -1,106 +1,204 @@
-/*----GENERAL----*/
-*{
-    padding:0px;
-    margin:0px;
-    box-sizing:border-box;
-    font-family:'Trebuchet MS';
-}
-body{
-    background:#000;
-    color:#fff;
-}
-
-.content-box{
-    width:100%;
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction:column;
-}
-
-.image-box{
-    width:500px;
-    height:250px;
-    margin-top:10px;
-    
-}
-
-.image-box img{
-    border-radius:10px;
-}
-
-.data-box{
-    width:700px;
-    height:250px;
-    display:flex;
-    align-items:center;
-}
-
-.data-p,.data-c, .data-d{
-    color:#fff;
-    width:50%;
-    height:100px;
-    border-radius:20px;
-    padding:10px;
-    margin:10px;
-    text-align:center;
-}
-
-.data-p{
-    background:#058E13;
-    border-bottom:5px solid #09CA1D;
-    border-right:5px solid #09CA1D;
-}
-
-.data-c{
-    background:#06058E;
-    border-bottom:5px solid #0C0BCC;
-    border-right:5px solid #0C0BCC;
-}
-
-.data-d{
-    background:#981717;
-    border-bottom:5px solid #D71D1D;
-    border-right:5px solid #D71D1D;
-}
-/*----MENU----*/
-#menu_bar{
-    border-bottom:1px solid #fff;
-    display:flex;
-    justify-content: center;
-    align-items:center;
-}
-header #menu_bar{
-    width:100%;
-    height:50px;
-}
-
-#menu_bar a{
-    text-decoration:none;
-    color:#fff;
-}
-
-#menu_bar li{
-    list-style:none;
-    margin:60px;
-    font-size:24px;
-}
-
-/*----GLOBAL DATA----*/
 
 
-/*----SEARCH COUNTRY----*/
-select{
-    width:500px;
-    height:50px;
-    font-size:24px;
-    border-radius:10px;
+body, html{
+	font-family: 'Roboto', sans-serif;
+	
 }
 
-button{
-    border-radius:10px;
-    margin-top:5px;
-    border:none;
-    width:150px;
-    height:25px;
+#header{
+	width: 100%;
+	background: transparent;
+	transition: backgrand ease-out 0.2s;
 }
+
+#header .auto{
+width: auto;
+}
+#header .nav-link{
+	padding-left:0;
+	padding-right:0;
+	margin-left:15px;
+	margin-right:15px;
+}
+
+#header .hv:hover{
+	border-bottom: solid 3px var(--primary);
+	
+}
+#header .active{
+	border-bottom: solid 3px var(--white);
+	
+}
+
+#cards a.destaque{
+	display: block;
+	background: var(--grey-light);
+	border-radius: 5px;
+	text-align: center;
+	padding: 20px;
+	color: #000;
+	text-decoration: none;
+	transition: all ease-out 0.2s;
+}
+#cards a.destaque:hover{
+	
+	background: var(--white);
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.12);
+	transform: scale(1.05);
+
+}
+#cards p{
+ color:var (--black);
+}
+
+
+#client{
+	margin-bottom: 50px;
+}
+#client a.logo-client {
+	padding: 0 15px;
+	background: #ffF;
+	display: flex;
+	align-items: center;
+	height: 150px;
+	transition: ease-out all 0.2s;
+}
+
+#client a.logo-client:hover {
+	transform: scale(1.2);
+	box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.15);
+}
+#client a.logo-client img{
+	filter: grayscale(75%);
+	max-height:70px;
+	width: 100%;
+	opacity: 0.6;
+}
+#client a.logo-client:hover img{
+	filter: none;
+	opacity: 1;
+}
+
+#client .client-text{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding:5px;
+	margin-left: 20px;
+	background: var(--black);
+	border-radius: 5px;
+}
+
+#client .client-text .imagem {
+	padding: 60px 0;
+	display: flex;
+	align-items: center;
+	margin-left: -30px;
+	color:white;
+	font-size: 24px;
+	line-height: 26px;
+}
+#client .client-text .imagem span{
+	color: var(--primary);
+	font-size:  110px;
+	line-height: 110px;
+	letter-spacing: -10px;
+	font-weight: 900;
+	display: block;
+	margin-left: 10px;
+}
+#client .client-text .telefone {
+ display: flex;
+ font-size: 14px;
+ color:white;
+ margin-left:140px;
+
+}
+#client .client-text .telefone span{
+font-size:  25px;
+color: var(--primary);
+font-weight: 900;
+display: block;
+margin-top: 20px; 
+margin-left: 10px;
+}
+
+
+.espaço{
+	height: 38rem;
+}
+
+.largura{
+	width: 60em;
+}
+
+.tx{
+	background: red;
+}
+
+.drop a{
+	color: var(--black);
+}
+
+.img1{
+    border-radius: 50%;
+	max-width:500px;
+    max-height:400px;
+}
+.img2{
+    border-radius:50%;
+	max-width:500px;
+    max-height:400px;
+
+}
+
+#rodape ul{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content:flex-end ;
+}
+#rodape ul li{
+	display: flex;
+	list-style: none;
+	margin-left: 25px;
+}
+#rodape ul li:first-child{
+ margin-left: 0;	
+}
+#rodape ul li a {
+	display: flex;
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+	justify-content: center;
+	align-items: center;
+	background-color:transparent;
+	transition: all ease-out 0.2s;
+}
+#rodape ul li a:hover{
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.4);
+	background-color: rgb(255, 255, 255);
+}
+
+
+.icorp{
+	max-width:30px;
+    max-height:50px;
+}
+
+.paisagem{
+	width: 100%;
+	max-height: 500px;
+}
+
+.center{
+	margin-left: 350px;
+}
+
+.imgcard{
+	min-height: 200px;
+	min-width: 150px;
+
+}
+
